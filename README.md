@@ -59,6 +59,7 @@ SPL is an official collection of programs to build your own Solana program with.
 - Token-2022 Security resources:
   - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
   - [Neodyme's Token-2022 security](https://neodyme.io/en/blog/token-2022)
+- [Reversing Solana programs with IDA](https://blog.decurity.io/reversing-solana-programs-with-ida-438ec5184d73)
 
 ## CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
