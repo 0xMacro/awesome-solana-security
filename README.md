@@ -47,6 +47,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Accretion's Hidden IDL Instructions and How to Abuse Them](https://accretionxyz.substack.com/p/hidden-idl-instructions-and-how-to)
 - [Farouk ELALEM's explanation of how Solana programs work under the hood](https://ubermensch.blog/under-the-hood-of-solana-program-execution-from-rust-code-to-sbf-bytecode)
 - [Ottersec's lamport transfers vulnerabilities](https://osec.io/blog/2025-05-14-king-of-the-sol)
+- [Solana security audits: what to do & what not to do w/ Oshield](https://www.youtube.com/watch?v=vw7fqOdf82I): Includes many solana exploited bugs examples 
 
 - Solana's general common vulnerabilities:
   - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
@@ -57,6 +58,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
   - [Zigtur's Solana security walkthrough](https://www.youtube.com/watch?v=xd6qfY-GDYY)
   - [M4rio's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
   - [Nirlin's advanced Solana vulnerabilities](https://substack.com/inbox/post/164534668)
+  - [Advanced Solana Vulnerabilities w/ r0bre](https://www.youtube.com/watch?v=sStIk5YyWdc)
 - Token-2022 Security resources:
   - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
   - [Neodyme's Token-2022 security](https://neodyme.io/en/blog/token-2022)
@@ -90,6 +92,16 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 
 ### CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
+
+### Bug Fix Reviews
+- [Raydium - Tick Manipulation Bugfix Review](https://medium.com/immunefi/port-finance-logic-error-bugfix-review-29767aced446](https://medium.com/immunefi/raydium-tick-manipulation-bugfix-review-c6aae4527ed6))
+- [Port Finance - Business Logic Error Bugfix Review](https://medium.com/immunefi/port-finance-logic-error-bugfix-review-29767aced446)
+- [Post Mortem: ZK ElGamal Proof Program Bug](https://solana.com/tr/news/post-mortem-may-2-2025)
+
+### Hacks, Exploits & Bugs 
+- [Solana Hacks, Bugs, and Exploits: A Complete History](https://www.helius.dev/blog/solana-hacks)
+- [Loopscale Exploit (Apr 2025)](https://rekt.news/loopscale-rekt)
+- [Wormhole Bridge Bug](https://rekt.news/wormhole-rekt)
 
 ### Audit Contests
 Solana security audits that are publicly available:
