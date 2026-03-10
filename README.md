@@ -94,6 +94,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Solana Stack Exchange](https://solana.stackexchange.com/) 
 
 ### Tools
+- [Token RugCheck](https://github.com/AetherCore-Dev/token-rugcheck): AI-powered Solana token safety audit service. Cross-references RugCheck.xyz, DexScreener, and GoPlus to generate three-layer risk reports (machine verdict + LLM analysis + raw evidence). Live on mainnet as an MCP server with USDC micropayments.
 - [Solana playground](https://beta.solpg.io/) 
 - [Rust playground](https://play.rust-lang.org/)
 - [Sec3's IDL Guesser](https://github.com/sec3-service/IDLGuesser): Reverse engineers IDL from onchain programs for easier integration
