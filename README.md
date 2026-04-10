@@ -97,6 +97,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Solana playground](https://beta.solpg.io/) 
 - [Rust playground](https://play.rust-lang.org/)
 - [Sec3's IDL Guesser](https://github.com/sec3-service/IDLGuesser): Reverse engineers IDL from onchain programs for easier integration
+- [Sec3's X-Ray Toolchain](https://github.com/sec3-product/x-ray): Static analysis CLI for Solana programs written in Rust
 - [Trail of Bits's Anchor X-ray](https://github.com/crytic/anchorx-ray): Visualizes accounts in Anchor programs
 - [John Saigle's Anchor version detector](https://github.com/johnsaigle/anchor-version-detector): Helps figure out which versions of Rust, Solana, and Anchor are compatible with a given Anchor project.
 - [Ackee's Trident](https://ackee.xyz/trident/docs/latest/): Fuzzing framework for Solana
