@@ -93,6 +93,8 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 ### Places to Ask Questions
 - [Solana Stack Exchange](https://solana.stackexchange.com/) 
 
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain rewards vintage hardware for mining
+
 ### Tools
 - [Solana playground](https://beta.solpg.io/) 
 - [Rust playground](https://play.rust-lang.org/)
