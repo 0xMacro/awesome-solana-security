@@ -54,6 +54,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [AlexAlekhinEth's high-level explanation of Solana network architecture](https://medium.com/@AlexAlekhinEth/solana-how-it-works-a-technical-deep-dive-b180468abc3d)
 - [Helius's complete history of Solana outages](https://www.helius.dev/blog/solana-outages-complete-history)
 - [Exo Tech's guide for developers on creating auditor-friendly architecture documentation](https://exotechnologies.xyz/p/a-developer-s-guide-to-audit-readiness)
+- [Crypto Motifs' solo-dev Solana security playbook (3-tier wallet + KMS envelope + isolated signer)](https://cryptomotifs.github.io/cipher-starter/): engineering-focused security architecture for solo Solana devs ($100 hot / $300 warm / $600 cold wallet split, KMS envelope encryption, isolated signer subprocess with program allowlist, compromised-wallet sweep playbook).
 
 
 - Solana's general common vulnerabilities:
