@@ -89,6 +89,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Squads program](https://github.com/Squads-Protocol/v4): Multisig protocol
 - [Solana Upgradeable BPF Loader program](https://github.com/solana-program/loader-v3)
 - [Solana Address Lookup Table program](https://github.com/solana-program/address-lookup-table)
+- [vulnerable.so](https://github.com/CYBWithFlourish/vulnerable.so): Educational repository demonstrating 5 critical Solana vulnerabilities with vulnerable code, exploits, and fixes.
 
 ### Places to Ask Questions
 - [Solana Stack Exchange](https://solana.stackexchange.com/) 
