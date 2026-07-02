@@ -45,6 +45,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 
 - [Infect3d's Essentials for Starting Solana Auditing](https://www.infect3d.xyz/blog/solana-quick-start)
 - [Lucrative_Panda's highly detailed research article that covers all of Solana's security incidents](https://medium.com/@lucrativepanda/a-comprehensive-analysis-of-solanas-security-history-all-incidents-impacts-and-evolution-up-to-1b1564c7ddfe)
+- [Solana History Map's playable teardowns of real Solana exploits](https://www.meow-woof.org/learn.html): Source-cited, interactive walkthroughs where you operate the failure mode yourself — forge the Wormhole signature (`load_instruction_at` vs `load_instruction_at_checked`), manipulate the Mango oracle to inflate collateral, and trigger the Slope key-leak drain
 - [r0bre's 100 Daily Solana Tips](https://accretionxyz.substack.com/p/r0bres-100-daily-solana-tips)
 - [Accretion's Hidden IDL Instructions and How to Abuse Them](https://accretionxyz.substack.com/p/hidden-idl-instructions-and-how-to)
 - [Farouk ELALEM's explanation of how Solana programs work under the hood](https://ubermensch.blog/under-the-hood-of-solana-program-execution-from-rust-code-to-sbf-bytecode)
