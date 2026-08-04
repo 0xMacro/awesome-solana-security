@@ -4,39 +4,44 @@ Resources to help you build better and more secure Solana programs. Kept up to d
 
 ### Official Resources
 
-- [Solana docs](https://solana.com/docs/) 
+- [Solana docs](https://solana.com/docs/)
 - [Solana courses](https://solana.com/developers/courses/)
-- [Solana cookbook](https://solana.com/developers/cookbook) 
+- [Solana cookbook](https://solana.com/developers/cookbook)
 - [Solana examples supporting multiple frameworks](https://github.com/solana-developers/program-examples)
 - [Solana bootcamp 2024](https://github.com/solana-developers/developer-bootcamp-2024)
 - [SPL (Solana Program Library) docs](https://spl.solana.com/): SPL is an official collection of programs to help you build your own Solana program.
 
 ### Rust
+
 If you need a primer on Rust, these resources are for you:
 
 - [Rust book](https://doc.rust-lang.org/book/)
 - [Rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [Rust cheatsheet](https://cheats.rs/)
+
 ### Solana Resources Using Native Rust
+
 - [Solana's native Rust docs](https://solana.com/docs/programs/rust)
 - [Solana's native Rust course](https://solana.com/developers/courses/native-onchain-development)
 
 ### Solana Resources Using Anchor Framework
+
 We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for building secure Solana programs.
 
 - [Anchor docs](https://www.anchor-lang.com/docs)
-- [Anchor book](https://book.anchor-lang.com/) 
+- [Anchor book](https://book.anchor-lang.com/)
 - [Anchor by example](https://examples.anchor-lang.com/)
 - [Anchor wiki](https://docs.rs/anchor-lang)
 - [Anchor SPL wiki](https://docs.rs/anchor-spl)
 
 ### Solana Resources for EVM transitioners
+
 - [RareSkills' Solana course for Ethereum developers](https://www.rareskills.io/solana-tutorial)
 - [0xkowloon's Anchor for EVM developers](https://0xkowloon.gitbook.io/anchor-for-evm-developers)
 - [S3v3ru5's Solana Beginner Notes](https://s3v3ru5.github.io/posts/solana-beginner-notes/)
 
-
 ### General Resources
+
 - [Ackee's Solana handbook](https://ackee.xyz/solana/book/latest/)
 - [Blueshift's Anchor and Pinocchio courses and challenges](https://learn.blueshift.gg/)
 - [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
@@ -55,11 +60,10 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Helius's complete history of Solana outages](https://www.helius.dev/blog/solana-outages-complete-history)
 - [Exo Tech's guide for developers on creating auditor-friendly architecture documentation](https://exotechnologies.xyz/p/a-developer-s-guide-to-audit-readiness)
 
-
 - Solana's general common vulnerabilities:
   - [Solana security course](https://solana.com/developers/courses/program-security)
   - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
-  - [Helius's common vulnerabilities](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) 
+  - [Helius's common vulnerabilities](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security)
   - [ImmuneBytes's common Solana attack vectors](https://github.com/ImmuneBytes-Security-Audit/Blockchain-Attack-Vectors/tree/main/Solana%20Attack%20Vectors)
   - [Slowmist's Solana best practices](https://github.com/slowmist/solana-smart-contract-security-best-practices)
   - [Exvul's Solana security guide](https://exvul.com/rust-smart-contract-security-guide-in-solana/)
@@ -67,14 +71,14 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
   - [M4rio's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
   - [Nirlin's advanced Solana vulnerabilities](https://substack.com/inbox/post/164534668)
 
-
 - Token-2022 Security resources:
   - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
   - [Neodyme's Token-2022 security](https://neodyme.io/en/blog/token-2022)
 
-
 ### Codebases to Study
+
 **Essential:**
+
 - [Anchor framework](https://github.com/solana-foundation/anchor)
 - [Solana system program](https://github.com/solana-program/system)
 - [Solana token program](https://github.com/solana-program/token)
@@ -84,6 +88,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Metaplex's token metadata program](https://github.com/metaplex-foundation/mpl-token-metadata)
 
 **Optional:**
+
 - [Raydium program](https://github.com/raydium-io/raydium-cp-swap): AMM protocol
 - [Kamino program](https://github.com/Kamino-Finance/klend): Lending protocol
 - [Squads program](https://github.com/Squads-Protocol/v4): Multisig protocol
@@ -91,30 +96,36 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Solana Address Lookup Table program](https://github.com/solana-program/address-lookup-table)
 
 ### Places to Ask Questions
-- [Solana Stack Exchange](https://solana.stackexchange.com/) 
+
+- [Solana Stack Exchange](https://solana.stackexchange.com/)
 
 ### Tools
-- [Solana playground](https://beta.solpg.io/) 
+
+- [Solana playground](https://beta.solpg.io/)
 - [Rust playground](https://play.rust-lang.org/)
 - [Sec3's IDL Guesser](https://github.com/sec3-service/IDLGuesser): Reverse engineers IDL from onchain programs for easier integration
 - [Trail of Bits's Anchor X-ray](https://github.com/crytic/anchorx-ray): Visualizes accounts in Anchor programs
 - [John Saigle's Anchor version detector](https://github.com/johnsaigle/anchor-version-detector): Helps figure out which versions of Rust, Solana, and Anchor are compatible with a given Anchor project.
 - [Ackee's Trident](https://ackee.xyz/trident/docs/latest/): Fuzzing framework for Solana
 - [Ackee's Solana IDE extension](https://marketplace.visualstudio.com/items?itemName=AckeeBlockchain.solana): Automatically detects common security issues in Solana programs and visualizes Trident fuzzing coverage
+- [Sentio](https://github.com/sentio-security/sentio-rs): Static analysis CLI for Solana programs written in Anchor
 
 ### CTFs
+
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
 
 ### Audit Contests
+
 Solana security audits that are publicly available:
 
-- [Orderly on Sherlock](https://audits.sherlock.xyz/contests/524/report): 2 High and 1 Medium 
-- [WOOFi on Sherlock](https://audits.sherlock.xyz/contests/535/report): 2 High and 3 Medium 
+- [Orderly on Sherlock](https://audits.sherlock.xyz/contests/524/report): 2 High and 1 Medium
+- [WOOFi on Sherlock](https://audits.sherlock.xyz/contests/535/report): 2 High and 3 Medium
 - [Pump Science on Code4rena](https://code4rena.com/reports/2025-01-pump-science): 2 High and 3 Medium
 - [Token22 Confidential Transfer on Code4rena](https://code4rena.com/reports/2025-08-solana-foundation): 7 Low
 - [Meteora on Code4rena](https://code4rena.com/reports/2025-08-meteora-dynamic-bonding-curve): 2 Medium
 
 **NOTE: Contact `0xmorph` in the Cantina Discord server to gain read access if you don't have it.**
+
 - [Grass on Cantina](https://cantina.xyz/competitions/3211ee0d-133f-43a0-837e-8dc1ecfaa424): 13 High and 6 Medium
 - [Olas on Cantina](https://cantina.xyz/competitions/829164bf-7fba-4b84-a6b8-76652205bd97): 2 High and 3 Medium
 - [Tensor on Cantina](https://cantina.xyz/competitions/21787352-de2c-4a77-af09-cc0a250d1f04): 5 High and 10 Medium
@@ -125,6 +136,6 @@ Solana security audits that are publicly available:
 - [Genius on Cantina](https://cantina.xyz/code/12acc80c-4e4c-4081-a0a3-faa92150651a): 6 High and 4 Medium (partial Solana scope)
 
 **NOTE: First Flights are introductory audit challenges with smaller codebases, designed for beginners to practice finding vulnerabilities.**
+
 - [RustFund first flight](https://codehawks.cyfrin.io/c/2025-03-rustfund/results?t=report): 4 High and 3 Medium
 - [SSSwap first flight](https://codehawks.cyfrin.io/c/2025-05-ssswap/results?t=report): 5 High and 4 Medium
-
