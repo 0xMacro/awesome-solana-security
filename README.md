@@ -1,106 +1,131 @@
 # Awesome Solana Security
-**Contributions are most welcome**
 
-## **Blogs on Audit Techniques and Vulnerabilities**
+Resources to help you build better and more secure Solana programs. Kept up to date.
 
-### **Soteria/Sec3 Series**
+### Official Resources
 
-**How to audit Solana smart contracts**
+- [Solana docs](https://solana.com/docs/) 
+- [Solana courses](https://solana.com/developers/courses/)
+- [Solana cookbook](https://solana.com/developers/cookbook) 
+- [Solana examples supporting multiple frameworks](https://github.com/solana-developers/program-examples)
+- [Solana bootcamp 2024](https://github.com/solana-developers/developer-bootcamp-2024)
+- [SPL (Solana Program Library) docs](https://spl.solana.com/): SPL is an official collection of programs to help you build your own Solana program.
 
-1. Part 1: A systematic approach - (https://medium.com/coinmonks/how-to-audit-solana-smart-contracts-part-1-a-systematic-approach-56a434f6c9ed)
-2. Part 2: automated scanning - (https://medium.com/coinmonks/how-to-audit-solana-smart-contracts-part-2-automated-scanning-ceb88830ae6d)
-3. Part 3: penetration testing - (https://medium.com/coinmonks/how-to-audit-solana-smart-contracts-part-3-penetration-testing-a315b3bbb2d3)
-4. Part 4: the Anchor framework - (https://medium.com/coinmonks/how-to-audit-solana-smart-contracts-part-4-the-anchor-framework-ef42d944f086)
+### Rust
+If you need a primer on Rust, these resources are for you:
 
----
+- [Rust book](https://doc.rust-lang.org/book/)
+- [Rust by example](https://doc.rust-lang.org/rust-by-example/index.html)
+- [Rust cheatsheet](https://cheats.rs/)
+### Solana Resources Using Native Rust
+- [Solana's native Rust docs](https://solana.com/docs/programs/rust)
+- [Solana's native Rust course](https://solana.com/developers/courses/native-onchain-development)
 
-### **BlockSec Series**
+### Solana Resources Using Anchor Framework
+We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for building secure Solana programs.
 
-**Secure the Solana Ecosystem**
+- [Anchor docs](https://www.anchor-lang.com/docs)
+- [Anchor book](https://book.anchor-lang.com/) 
+- [Anchor by example](https://examples.anchor-lang.com/)
+- [Anchor wiki](https://docs.rs/anchor-lang)
+- [Anchor SPL wiki](https://docs.rs/anchor-spl)
 
-1. Hello Solana - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-1-hello-solana-bb7ecc1e6b21)
-2. Calling Between Programs - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-2-calling-between-programs-5fa3d947c4ed)
-3. Program Upgrade - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-3-program-upgrade-5590c746016)
-4. Account Validation - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-4-account-validation-2e28b062de0b)
-5. Multi-Sig - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-5-multi-sig-99b74bbb3bfe)
-6. Multi-Sig2 - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-6-multi-sig2-ef3e8d6cfe6f)
-7. Type Confusion - (https://blocksecteam.medium.com/secure-the-solana-ecosystem-7-type-confusion-90dbc19cd0cb)
-
----
-
-### **Blogs and Articles**
-
-1. Solana Smart Contracts: Common Pitfalls and How to Avoid Them - (https://blog.neodyme.io/posts/solana_common_pitfalls/)
-2. From Ethereum smart contracts to Solana programs: two common security pitfalls and beyond - (https://medium.com/coinmonks/from-ethereum-smart-contracts-to-solana-programs-two-common-security-pitfalls-and-beyond-ea5b919ade1c)
-3. Sealevel Attacks - Common Solana Exploit Codes and Recommendations - (https://github.com/coral-xyz/sealevel-attacks)
-4. 10 vulnerabilities - A twitter thread about Sealevel Attacks - (https://twitter.com/pencilflip/status/1483880018858201090)
-5. How to Hack Solana Smart Contracts/Programs - (https://halborn.com/how-to-hack-solana-smart-contracts-programs/)
-6. Solana: An Auditor's Introduction - (https://osec.io/blog/tutorials/2022-03-14-solana-security-intro/)
-7. The Story of the Curious Rent Thief - (https://osec.io/blog/reports/2022-08-19-solend-rent-thief/)
-8. Breakpoint 2021: Think Like an Attacker: Bringing Smart Contracts to Their Break(ing) Point - (https://www.youtube.com/watch?v=vbkhhgeP30I)
-9. Solana Program Security - Part 1 - (https://research.kudelskisecurity.com/2021/09/15/solana-program-security-part1/)
-10. Typical and Unique Issues for the NEAR Protocol - (https://0xguard.com/near_protocol/tpost/ja553x8db1-typical-and-unique-issues-for-the-near-p)
+### Solana Resources for EVM transitioners
+- [RareSkills' Solana course for Ethereum developers](https://www.rareskills.io/solana-tutorial)
+- [0xkowloon's Anchor for EVM developers](https://0xkowloon.gitbook.io/anchor-for-evm-developers)
+- [S3v3ru5's Solana Beginner Notes](https://s3v3ru5.github.io/posts/solana-beginner-notes/)
 
 
----
+### General Resources
+- [Ackee's Solana handbook](https://ackee.xyz/solana/book/latest/)
+- [Blueshift's Anchor and Pinocchio courses and challenges](https://learn.blueshift.gg/)
+- [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
+- [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
+- [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focuses on deep diving into features of Solana protocols
 
-## Audit Reports
-
-1. Bonafida Security Assessment by Kudelski Security - (https://github.com/Bonfida/token-vesting/blob/master/audit/Bonfida_SecurityAssessment_Vesting_Final050521.pdf)
-2. Solana Quantstampt Stake Pool Audit - (https://solana.com/SolanaQuantstampStakePoolAudit.pdf)
-3. SPL Stake Pool by Neodyme - (https://solana.com/SolanaNeodymeStakePoolAudit.pdf)
-4. Stake Pool - Solana Foundation by Kudelski Security - (https://solana.com/SolanaKudelskiStakePoolAudit.pdf)
-5. Solido Audit by Bramah Systems - (https://github.com/ChorusOne/solido/blob/main/audit/2021-07-05-bramah-systems.pdf)
-6. Lido on Solana - Neodyme - (https://github.com/ChorusOne/solido/blob/main/audit/2021-08-03-neodyme.pdf)
-7. Anker on Solana - Neodyme - (https://github.com/ChorusOne/solido/blob/main/audit/2022-04-06-neodyme.pdf)
-8. Saber.so Audit by Bramah Systems - (https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf)
-9. Quarry by Quantstamp - (https://github.com/QuarryProtocol/quarry/blob/master/audit/quantstamp.pdf)
-10. Cega Vault by Ottersec - (https://github.com/otter-sec/cega-vault-report/blob/main/cega-vault-audit-public.pdf)
-11. Port Finance Sundial by Ottersec - (https://github.com/port-finance/sundial/blob/master/audits/port-finance-sundial-audit-public.pdf)
-12. Jet Governance by Ottersec - (https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf)
-13. Marinade Finance by Kudelski - (https://solana.com/solana-security-audit-2019.pdf)
----
-
-## Solana Real-life Exploits and Hacks
-
----
-
-## Scanners and Tools
-
-1. Soteria - (https://medium.com/coinmonks/soteria-a-vulnerability-scanner-for-solana-smart-contracts-cc202cf17c99)
-2. Siderophile - (https://github.com/trailofbits/siderophile)
-3. List of Cargo crates and Tools for auditing rust - (https://www.reddit.com/r/rust/comments/ufwryc/comment/i6w629y/)
-4. L3X, AI-driven Smart Contract Static Analyzer - (https://github.com/VulnPlanet/l3x)
-5. First and only fuzzing framework for Solana smart contracts. Performs manually-guided fuzzing with flow-based sequences and property-based testing to discover vulnerabilities - [Trident](https://usetrident.xyz/)
-6. RegPilot (https://regpilot.io) - Consumer-friendly token safety platform for Solana. Instant 0-100 trust score covering smart contract risk, liquidity depth, holder distribution, audit status and on-chain red flags. Free. No wallet required.
-7. Sharpe Rug Check (https://www.sharpe.ai/rug-check) - Free multi-chain token safety scanner and rug pull checker. 0-100 risk score for Solana (SPL + Token-2022) with mint/freeze/update authority checks, Raydium LP lock verification, Jupiter-based honeypot simulation, and holder-concentration analysis. Also covers Ethereum, Base, BSC, Arbitrum, and Polygon. Public REST API and MCP server. No wallet required.
-8. [Pumpora](https://pumpora.net) — Telegram bot that scores pump.fun tokens across 10 on-chain signals (dev wallet history, bundled supply, freeze authority, liquidity lock). Returns a 0–100 risk score in 3 seconds.
-9. [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native MCP server for AI agent trust scoring and x402 receipt verification. Free preflight trust assessment + signed V5 receipts at https://intel.twzrd.xyz
-10. [n8n Solana Mint/Program Monitor](https://github.com/DeusAcc/n8n-solana-mint-monitor) - Free, MIT-licensed n8n workflow: watches an SPL mint or program ID via public RPC and alerts on Telegram on new transactions, no external DB, no wallet required
-
----
-
-## CTFs
-
-1. Solana CTF Framework by Ottersec - (https://github.com/otter-sec/sol-ctf-framework)
-2. Solana CTF Challenges by Neodyme - (https://github.com/neodyme-labs/solana-ctf)
-3. Neodyme Workshop - (https://workshop.neodyme.io/)
+- [Infect3d's Essentials for Starting Solana Auditing](https://www.infect3d.xyz/blog/solana-quick-start)
+- [Lucrative_Panda's highly detailed research article that covers all of Solana's security incidents](https://medium.com/@lucrativepanda/a-comprehensive-analysis-of-solanas-security-history-all-incidents-impacts-and-evolution-up-to-1b1564c7ddfe)
+- [r0bre's 100 Daily Solana Tips](https://accretionxyz.substack.com/p/r0bres-100-daily-solana-tips)
+- [Accretion's Hidden IDL Instructions and How to Abuse Them](https://accretionxyz.substack.com/p/hidden-idl-instructions-and-how-to)
+- [Farouk ELALEM's explanation of how Solana programs work under the hood](https://ubermensch.blog/under-the-hood-of-solana-program-execution-from-rust-code-to-sbf-bytecode)
+- [Ottersec's lamport transfers vulnerabilities](https://osec.io/blog/2025-05-14-king-of-the-sol)
+- [Asymmetric Research's analysis of CPI vulnerabilities](https://blog.asymmetric.re/invocation-security-navigating-vulnerabilities-in-solana-cpis/)
+- [Alex Lazar's analysis of CPI vulnerabilities](https://newsletter.alexlazar.dev/p/external-calls-are-dangerous)
+- [AlexAlekhinEth's high-level explanation of Solana network architecture](https://medium.com/@AlexAlekhinEth/solana-how-it-works-a-technical-deep-dive-b180468abc3d)
+- [Helius's complete history of Solana outages](https://www.helius.dev/blog/solana-outages-complete-history)
+- [Exo Tech's guide for developers on creating auditor-friendly architecture documentation](https://exotechnologies.xyz/p/a-developer-s-guide-to-audit-readiness)
 
 
----
+- Solana's general common vulnerabilities:
+  - [Solana security course](https://solana.com/developers/courses/program-security)
+  - [Urataps's program examples with vulnerabilities](https://github.com/urataps/solana-audit-examples)
+  - [Helius's common vulnerabilities](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) 
+  - [ImmuneBytes's common Solana attack vectors](https://github.com/ImmuneBytes-Security-Audit/Blockchain-Attack-Vectors/tree/main/Solana%20Attack%20Vectors)
+  - [Slowmist's Solana best practices](https://github.com/slowmist/solana-smart-contract-security-best-practices)
+  - [Exvul's Solana security guide](https://exvul.com/rust-smart-contract-security-guide-in-solana/)
+  - [Zigtur's Solana security walkthrough](https://www.youtube.com/watch?v=xd6qfY-GDYY)
+  - [M4rio's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
+  - [Nirlin's advanced Solana vulnerabilities](https://substack.com/inbox/post/164534668)
 
-## Interesting Github Repositories
 
-1. Solana POC Framework - (https://github.com/otter-sec/solana-poc-framework)
-2. Awesome Solana - (https://github.com/avareum/awesome-solana)
+- Token-2022 Security resources:
+  - Offside's Token-2022 best practices [Part 1](https://blog.offside.io/p/token-2022-security-best-practices-part-1) and [Part 2](https://blog.offside.io/p/token-2022-security-best-practices-part-2)
+  - [Neodyme's Token-2022 security](https://neodyme.io/en/blog/token-2022)
 
----
 
-## Beginner-friendly Development Resources
+### Codebases to Study
+**Essential:**
+- [Anchor framework](https://github.com/solana-foundation/anchor)
+- [Solana system program](https://github.com/solana-program/system)
+- [Solana token program](https://github.com/solana-program/token)
+- [Solana token-2022 program](https://github.com/solana-program/token-2022)
+- [Solana ATA (Associated Token Account) program](https://github.com/solana-program/associated-token-account)
+- [Solana token metadata program](https://github.com/solana-program/token-metadata)
+- [Metaplex's token metadata program](https://github.com/metaplex-foundation/mpl-token-metadata)
 
-1. Setting-up Solana Development Environment - (https://github.com/LearnWithArjun/solana-env-setup)
-2. How to Build & Deploy Smart Contracts on Solana - (https://www.leewayhertz.com/build-solana-smart-contracts/)
-3. learn-web3-dapp - (https://github.com/figment-networks/learn-web3-dapp)
-4. Learning Rust - (https://learning-rust.github.io/docs/a3.hello_world.html)
+**Optional:**
+- [Raydium program](https://github.com/raydium-io/raydium-cp-swap): AMM protocol
+- [Kamino program](https://github.com/Kamino-Finance/klend): Lending protocol
+- [Squads program](https://github.com/Squads-Protocol/v4): Multisig protocol
+- [Solana Upgradeable BPF Loader program](https://github.com/solana-program/loader-v3)
+- [Solana Address Lookup Table program](https://github.com/solana-program/address-lookup-table)
 
----
+### Places to Ask Questions
+- [Solana Stack Exchange](https://solana.stackexchange.com/) 
+
+### Tools
+- [Solana playground](https://beta.solpg.io/) 
+- [Rust playground](https://play.rust-lang.org/)
+- [Sec3's IDL Guesser](https://github.com/sec3-service/IDLGuesser): Reverse engineers IDL from onchain programs for easier integration
+- [Trail of Bits's Anchor X-ray](https://github.com/crytic/anchorx-ray): Visualizes accounts in Anchor programs
+- [John Saigle's Anchor version detector](https://github.com/johnsaigle/anchor-version-detector): Helps figure out which versions of Rust, Solana, and Anchor are compatible with a given Anchor project.
+- [Ackee's Trident](https://ackee.xyz/trident/docs/latest/): Fuzzing framework for Solana
+- [Ackee's Solana IDE extension](https://marketplace.visualstudio.com/items?itemName=AckeeBlockchain.solana): Automatically detects common security issues in Solana programs and visualizes Trident fuzzing coverage
+- [n8n Solana Mint/Program Monitor](https://github.com/DeusAcc/n8n-solana-mint-monitor): Free n8n workflow that watches an SPL mint or program ID and alerts on Telegram on new on-chain activity, useful for watching an upgrade authority or deployment for unexpected transactions
+
+### CTFs
+- [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
+
+### Audit Contests
+Solana security audits that are publicly available:
+
+- [Orderly on Sherlock](https://audits.sherlock.xyz/contests/524/report): 2 High and 1 Medium 
+- [WOOFi on Sherlock](https://audits.sherlock.xyz/contests/535/report): 2 High and 3 Medium 
+- [Pump Science on Code4rena](https://code4rena.com/reports/2025-01-pump-science): 2 High and 3 Medium
+- [Token22 Confidential Transfer on Code4rena](https://code4rena.com/reports/2025-08-solana-foundation): 7 Low
+- [Meteora on Code4rena](https://code4rena.com/reports/2025-08-meteora-dynamic-bonding-curve): 2 Medium
+
+**NOTE: Contact `0xmorph` in the Cantina Discord server to gain read access if you don't have it.**
+- [Grass on Cantina](https://cantina.xyz/competitions/3211ee0d-133f-43a0-837e-8dc1ecfaa424): 13 High and 6 Medium
+- [Olas on Cantina](https://cantina.xyz/competitions/829164bf-7fba-4b84-a6b8-76652205bd97): 2 High and 3 Medium
+- [Tensor on Cantina](https://cantina.xyz/competitions/21787352-de2c-4a77-af09-cc0a250d1f04): 5 High and 10 Medium
+- [ZetaChain on Cantina](https://cantina.xyz/competitions/80a33cf0-ad69-4163-a269-d27756aacb5e): 6 High and 27 Medium (partial Solana scope)
+- [Inclusive Finance on Cantina](https://cantina.xyz/competitions/3eff5a8f-b73a-4cfe-8c54-546b475548f0): 45 High and 25 Medium (partial Solana scope)
+- [Reserve Index on Cantina](https://cantina.xyz/code/8b94becd-54e7-41cd-88e6-caae7becc76a): 10 High and 11 Medium
+- [Solayer on Cantina](https://cantina.xyz/code/0f543452-2076-438f-86ae-bbd6b065fffb): 3 High and 6 Medium
+- [Genius on Cantina](https://cantina.xyz/code/12acc80c-4e4c-4081-a0a3-faa92150651a): 6 High and 4 Medium (partial Solana scope)
+
+**NOTE: First Flights are introductory audit challenges with smaller codebases, designed for beginners to practice finding vulnerabilities.**
+- [RustFund first flight](https://codehawks.cyfrin.io/c/2025-03-rustfund/results?t=report): 4 High and 3 Medium
+- [SSSwap first flight](https://codehawks.cyfrin.io/c/2025-05-ssswap/results?t=report): 5 High and 4 Medium
+
