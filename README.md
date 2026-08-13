@@ -20,6 +20,7 @@ If you need a primer on Rust, these resources are for you:
 ### Solana Resources Using Native Rust
 - [Solana's native Rust docs](https://solana.com/docs/programs/rust)
 - [Solana's native Rust course](https://solana.com/developers/courses/native-onchain-development)
+- [n8n-solana-mint-monitor](https://github.com/DeusAcc/n8n-solana-mint-monitor) - Free n8n workflow that watches an SPL mint or program ID and alerts on Telegram on new transactions, no external database.
 
 ### Solana Resources Using Anchor Framework
 We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for building secure Solana programs.
