@@ -127,4 +127,5 @@ Solana security audits that are publicly available:
 **NOTE: First Flights are introductory audit challenges with smaller codebases, designed for beginners to practice finding vulnerabilities.**
 - [RustFund first flight](https://codehawks.cyfrin.io/c/2025-03-rustfund/results?t=report): 4 High and 3 Medium
 - [SSSwap first flight](https://codehawks.cyfrin.io/c/2025-05-ssswap/results?t=report): 5 High and 4 Medium
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 
