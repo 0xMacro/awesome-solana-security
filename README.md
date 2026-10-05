@@ -101,6 +101,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [John Saigle's Anchor version detector](https://github.com/johnsaigle/anchor-version-detector): Helps figure out which versions of Rust, Solana, and Anchor are compatible with a given Anchor project.
 - [Ackee's Trident](https://ackee.xyz/trident/docs/latest/): Fuzzing framework for Solana
 - [Ackee's Solana IDE extension](https://marketplace.visualstudio.com/items?itemName=AckeeBlockchain.solana): Automatically detects common security issues in Solana programs and visualizes Trident fuzzing coverage
+- [token-launch-scan](https://github.com/invisiblemonsters/token-launch-scan): Free, no-API-key launch safety scanner — mint/freeze authority, holder concentration, and RugCheck flags for fresh Solana token launches
 
 ### CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
