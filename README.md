@@ -29,6 +29,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Anchor by example](https://examples.anchor-lang.com/)
 - [Anchor wiki](https://docs.rs/anchor-lang)
 - [Anchor SPL wiki](https://docs.rs/anchor-spl)
+- [Anchor security checklist](https://orivions.com/blog/anchor-security-checklist): 16 checks to run before an audit: signers, has_one, UncheckedAccount, PDA seeds, init_if_needed, token constraints, CPIs, math and remaining_accounts
 
 ### Solana Resources for EVM transitioners
 - [RareSkills' Solana course for Ethereum developers](https://www.rareskills.io/solana-tutorial)
