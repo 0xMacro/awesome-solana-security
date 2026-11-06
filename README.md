@@ -40,6 +40,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [Ackee's Solana handbook](https://ackee.xyz/solana/book/latest/)
 - [Blueshift's Anchor and Pinocchio courses and challenges](https://learn.blueshift.gg/)
 - [Rektoff's Security roadmap](https://github.com/Rektoff/Security-Roadmap-for-Solana-applications)
+- [Orivions's Solana security checklists](https://github.com/JakeMalarczyk/solana-security-checklists): Free pre-launch, Anchor security and audit readiness checklists
 - [Helius's blog](https://www.helius.dev/blog): Frequently publishes Solana-related content
 - [Pine Analytics's Substack](https://substack.com/@pineanalytics1): Focuses on deep diving into features of Solana protocols
 
