@@ -66,6 +66,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
   - [Zigtur's Solana security walkthrough](https://www.youtube.com/watch?v=xd6qfY-GDYY)
   - [M4rio's Solana security walkthrough](https://www.youtube.com/watch?v=q4z8tIi43lg)
   - [Nirlin's advanced Solana vulnerabilities](https://substack.com/inbox/post/164534668)
+  - [Solana Security Patterns](https://github.com/yourmememachine/solana-security-patterns): Field guide of Solana program security patterns from a self-audit of a bridge and launch standard — vulnerable vs fixed, in Rust
 
 
 - Token-2022 Security resources:
