@@ -101,6 +101,7 @@ We highly recommend using [Anchor](https://www.anchor-lang.com), a framework for
 - [John Saigle's Anchor version detector](https://github.com/johnsaigle/anchor-version-detector): Helps figure out which versions of Rust, Solana, and Anchor are compatible with a given Anchor project.
 - [Ackee's Trident](https://ackee.xyz/trident/docs/latest/): Fuzzing framework for Solana
 - [Ackee's Solana IDE extension](https://marketplace.visualstudio.com/items?itemName=AckeeBlockchain.solana): Automatically detects common security issues in Solana programs and visualizes Trident fuzzing coverage
+- [SOL Rent & Rug Shield](https://rentandrugshield.com): Pre-sign Solana SPL and Token-2022 risk scanner checking mint/freeze authority, transfer-fee and permanent-delegate extensions, inner CPI drain simulation, and empty ATA rent recovery ([MIT SDK](https://github.com/sonnyman2014/solana-rent-rug-shield-mcp))
 
 ### CTFs
 - [Ackee Solana CTF](https://github.com/Ackee-Blockchain/Solana-Auditors-Bootcamp/tree/master/Capture-the-Flag)
